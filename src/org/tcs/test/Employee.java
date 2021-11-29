@@ -5,11 +5,16 @@ public class Employee {
 		System.out.println("Id is 4578");
 
 	}
+	
 	public static void main(String[] args) {
 		Employee e=new Employee();
 		e.Id();
+		e.empName();
 	}
-	
+	private void empName() {
+		System.out.println("name is ElaiyaRaja");
+
+	}
 	
 
 }
